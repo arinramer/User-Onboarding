@@ -22,7 +22,7 @@ const inputStyle = {
 
 let submitting = false;
 
-function LoginForm({ errors, touched, values, status, isSubmitting }) {
+function LoginForm({ errors, touched, values, status }) {
     return (
         <Container>
             <Form>
